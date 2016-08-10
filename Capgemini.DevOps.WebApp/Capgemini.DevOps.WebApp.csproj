@@ -269,7 +269,7 @@
     </VisualStudio>
   </ProjectExtensions>
   <Target Name="BeforeBuild">
-	<Exec Command="C:\devops\nuget restore $(SolutionDir)\Capgemini.DevOps.sln"/>
+	<Exec Command="C:\devops\nuget restore $(SolutionDir)Capgemini.DevOps.sln"/>
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
